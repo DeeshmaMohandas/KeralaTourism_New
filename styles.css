@@ -1,0 +1,248 @@
+*{
+    text-decoration: none;
+    
+ }
+ header
+ {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+   
+    background-color: rgb(65, 194, 245);
+    
+ }
+ .nav-links{
+    display: flex;
+    gap: 1.5rem;
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+
+ }
+ .nav-link{
+    list-style-type:none;
+
+
+ }
+ .nav-link a{
+    text-decoration: none;
+    color: #1d1944;
+    
+      font-size: 18px;font-weight: bold;
+     
+ }
+ button
+ {
+    background-color:white;   
+    border-radius: 20%;
+    border-color:rgb(30, 92, 24);
+
+ }
+ button a{
+    color: white;font-weight: bold;font-size: 5px;
+   
+
+ }
+ .logo{
+    border-radius: 50%;
+ }
+ .nav-para{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: 10px;
+    padding: 10px;
+    align-items: center;
+
+ }
+ .nav-see{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-left: 75%;
+  
+    
+   
+ 
+
+ }
+ .nav-see1{
+    list-style-type:none;
+    background-color: green;
+    background: green;
+    
+ }
+ .nav-paras{
+    list-style-type:none;
+
+
+ }
+ .nav-paras1{
+    list-style-type:none;
+    background-color: green;
+    background: green;
+   
+
+
+ }
+ .nav-para a{
+    text-decoration: none;
+    color: #1b1b1d;
+    
+      font-size: 18px;font-weight: bold;
+     
+ }
+ .nav-see a{
+    text-decoration: none;
+    color: #d9d9df;
+    
+      font-size: 18px;font-weight: bold;
+      
+     
+ }
+ .grid-container {
+    display: grid;
+    gap: 50px 100px;
+    grid-template-columns: auto auto ;
+    align-items: center;
+    
+    padding: 10px;
+  }
+ 
+ 
+ 
+.banner-card
+{
+    position: relative;
+    
+    
+}
+.banner-card img
+{
+    max-width:100%;
+    height:auto;
+
+    /* background-image: url(/Background3.avif); */
+}
+.banner-text
+
+{position:absolute;
+   top: 0;
+    padding: 10px;
+    color: white;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-weight: 100;
+    flex-direction: row;
+    
+
+}
+.Des_Kerala
+{
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    
+}
+
+
+.des{
+    flex: 1;
+    
+}
+
+
+
+.Dis_Grid{
+    display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  
+  grid-gap: 20px;
+  align-items: stretch;
+}
+.grids img{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    border-radius: 50%;
+}
+.grids h5
+{
+    text-align: center;
+}
+/* .Dis_Grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+    border-radius: 50%;
+
+  } */
+
+.container {
+    display: flex;
+    justify-content: center;
+  border-radius: 5px;
+  background-color :white;
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  transform: translate(300px, 179px);
+  box-sizing: border-box; 
+  border: solid white;
+}
+input[type=text],input[type=tel],input[type=email], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #325f2e;
+  color: rgb(244, 251, 253);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+  
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(41, 40, 46);
+  color: rgb(37, 31, 31);
+}
+
+.footercontainer
+{
+    width: 100%;
+    transform: translate(10px, 598px)
+    
+   
+
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color:white ;
+   margin: 10px;
+    border-radius: 50%;
+}
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
