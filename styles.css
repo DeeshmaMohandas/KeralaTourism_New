@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     
+    
  }
  header
  {
@@ -49,6 +50,9 @@
  .logo{
     border-radius: 50%;
     height: 80px;
+ }
+ .logo img{
+   height: 80px;
  }
  .nav-para{
     display: flex;
@@ -220,32 +224,18 @@ input[type=submit] {
 
 footer {
   text-align: center;
+  
   padding: 3px;
-  background-color: rgb(41, 40, 46);
-  color: rgb(37, 31, 31);
+  background-color: rgb(152, 236, 141);
+  color: white;
+  position: absolute;
+  height: 80px;
+  width: 100%;
+  align-items: flex-end;
+  margin-top: 45rem;
+  
+}
+footer p{
+   padding-top: 40px;
 }
 
-.footercontainer
-{
-    width: 100%;
-    transform: translate(10px, 598px)
-    
-   
-
-}
-.socialicons{
-    display: flex;
-    justify-content: center;
-}
-.socialicons a{
-    text-decoration: none;
-    padding: 10px;
-    background-color:white ;
-   margin: 10px;
-    border-radius: 50%;
-}
-.socialicons a i{
-    font-size: 2em;
-    color: black;
-    opacity: 0.9;
-}
