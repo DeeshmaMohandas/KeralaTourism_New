@@ -5,45 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kerala Tourism</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <main>
         <header>
-           
+            <nav class="navbar navbar-expand-md">
+            <ul class="nav-bar">
+                
+                <li class="logo"><a href="#"><img src="./Images/logo.png" alt="logo"></a></li>
+                <input type="checkbox" id="check">
+                <span class="menu">
+                    <li ><a href="#">Home</a></li>
+                    <li ><a href="districts.html" >Districts</a></li>
+                    <li ><a href="#" >About Us</a></li>
+                    <li class="nav-link" ><button> <a href="#">Login</a></button></li>
+                    <li class="nav-link"> <button class="nav-paras1"> <a href="#">Sign Up</a></button></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+              </nav>
              
-                    <!-- <div class="logo"><a href="#">Kerala Tourism</a></div> -->
+                    <!-- <div class="logo"><a href="#">Kerala Tourism</a></div>
+                     <input type="checkbox" id="check">
                      <div> <img  class="logo" src="./Images/logo1"></div>
                      <nav>
                     <ul class="nav-links">
+                       
                         <li class="nav-link"><a href="#">Home</a></li>
-                        <li class="nav-link"><a href="#" >District</a></li>
+                        <li class="nav-link"><a href="#" >Districts</a></li>
                         <li class="nav-link"><a href="#" >About Us</a></li>
                         <li class="nav-link"><button> <a href="#">Login</a></button></li>
                         <li class="nav-link"> <button class="nav-paras1"> <a href="#">Sign Up</a></button></li>
-                       
+                       <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                   
                     </ul>
+                    <div class="menu-icon">
+
+                    </div>
                 </div>
 
               </nav>
                    
-               <input type="checkbox" id="menu-select" name="menu-select">
-               <nav class="mobile-nav">
-                <label for="menu-select" class="menu-close">&times;</label>
-                <ul class="nav-links">
-                    <li class="nav-link"><a href="#">Home</a></li>
-                    <li class="nav-link"><a href="#" >District</a></li>
-                    <li class="nav-link"><a href="#" >About Us</a></li>
-                    <li class="nav-link"><button> <a href="#">Login</a></button></li>
-                    <li class="nav-link"> <button class="nav-paras1"> <a href="#">Sign Up</a></button></li>
+               
                    
                 </ul>
               
 
             </nav>
-            <label class="menu-select">&#x2630;</label>
+             <label class="menu-select">&#x2630;</label> 
           
            
-         
+          -->
         
        
         </header>
@@ -145,7 +159,8 @@
         </center>
         <div class="Dis_Grid">
         <div class="grids">
-            <img src="./Images/kozhikode.webp" alt="Kozhikode"> 
+            <a href="kozhikode.html"> <img src="./Images/kozhikode.webp" alt="Kozhikode"> </a>
+           
             <h5>Kozhikode</h5>
         </div>
             
