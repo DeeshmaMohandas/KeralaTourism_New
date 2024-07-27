@@ -3,7 +3,7 @@
     padding: 0px;
 }
 body{
-   background-image:url("images/bg3.jpg");
+   background-image:url("./Images/bg3.jpg");
     background-size: cover;
    background-repeat: no-repeat;
 }
